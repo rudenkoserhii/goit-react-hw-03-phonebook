@@ -4,9 +4,9 @@ import { App } from 'components/App';
 import './index.css';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './components/theme';
-import contacts from 'contacts.json';
+// import contacts from 'contacts.json';
 
-localStorage.setItem('contacts', JSON.stringify(contacts));
+// localStorage.setItem('contacts', JSON.stringify(contacts));
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
